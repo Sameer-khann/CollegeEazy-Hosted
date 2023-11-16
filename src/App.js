@@ -2,11 +2,7 @@ import './App.css';
 import Notes from './components/Notes';
 import SignUp from './components/SignUp';
 import AttendancePage from './components/AttendancePage';
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-} from "react-router-dom";
+import {BrowserRouter as Router,Routes,Route} from "react-router-dom";
 import HomePage from './components/HomePage';
 import LoginPage from './components/LoginPage';
 import PrePage from './components/PrePage';
@@ -20,11 +16,6 @@ import 'react-toastify/dist/ReactToastify.css';
 import Profile from './components/Profile';
 import About from './components/About';
 import ScrollToTop from './components/ScrollToTop';
-
-
-
-
-
 
 function App() {
   return (
@@ -40,8 +31,7 @@ function App() {
           <Route path="/note/PrePage/:id" element={<PrePage />} />
         <Route element={<PrivateRoutes />}>
           <Route path="/Shop" element={<Shop />} />
-          <Route path="/shop/:itemId" element={<ItemDetails />} /> {/* Pass posts as prop here */}
-          
+          <Route path="/shop/:itemId" element={<ItemDetails />} /> 
           <Route path="/Shop/Shoppre" element={<Shoppre />} />
           <Route path="/Profile" element={<Profile />} />
           <Route path="/AttendancePage" element={<AttendancePage />} />
@@ -51,5 +41,4 @@ function App() {
     </Router>
   );
 }
-
 export default App;

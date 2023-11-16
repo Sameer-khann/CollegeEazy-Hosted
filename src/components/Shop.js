@@ -9,11 +9,7 @@ import { useFormik } from 'formik';
 import * as yup from 'yup';
 import { Image } from 'cloudinary-react';
 import { toast } from 'react-toastify';
-
 import Swal from 'sweetalert2';
-
-
-
 
 const validationSchema = yup.object().shape({
     name: yup.string().required('Name is required'),
@@ -25,18 +21,10 @@ const validationSchema = yup.object().shape({
 });
 
 const FormComponent = (props) => {
-
-
     const [addData, setAddData] = useState([]);
     const [image, setImage] = useState('');
     const [loading, setLoading] = useState(false);
     const [Category, setCategory] = useState('');
-
-
-
-
-    // console.log(image,"img url cloud")
-
 
     const formik = useFormik({
         initialValues: {

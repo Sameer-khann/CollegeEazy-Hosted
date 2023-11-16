@@ -2456,7 +2456,6 @@ form {
   overflow-y: auto;
 }
 
-
 .Sidecard::-webkit-scrollbar {
   width: 0;
   height: 0;
@@ -2499,13 +2498,11 @@ form {
   color: black;
 }
 
-
 .errorFormAdd {
   color: red;
   font-size: .7rem;
   margin-top: -8px;
 }
-
 
 .imgUploadinput {
   display: flex;
@@ -2513,8 +2510,6 @@ form {
   justify-content: center;
   flex-direction: column;
 }
-
-
 
 .imgUpload {
 
@@ -2623,7 +2618,6 @@ form {
     /* overflow-y:auto; */
   }
 }
-
 
 .formAddA form {
   margin-top: 20px;
@@ -2850,7 +2844,6 @@ form {
   background-color: transparent;
   color: #46aece;
 }
-
 
 .attendanceDateSec {
   box-shadow: -10px 10px 102px 0px rgba(0, 0, 0, 0.25);
@@ -3322,8 +3315,6 @@ form {
     width: 90vw;
 
   }
-
-
 
   .NameIMgSec {
     display: flex;

@@ -228,6 +228,10 @@ export default function AttendancePage() {
     }
   };
 
+  useEffect(() => {
+    updateAttendance();
+  }, [inc,dec]);
+
 
 
   const updateSubject = async (addData) => {

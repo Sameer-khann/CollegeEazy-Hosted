@@ -8,24 +8,13 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Footer from './Footer';
 
-
-
-
-
-
 export default function Notes() {
-
-
     const [val, setVal] = useState({
         Branch: "",
         Semester: "",
         Subject: "",
         Opt: ""
     });
-
-
-
-
     // onchange
     const handleInput = (e) => {
         const name = e.target.name;
@@ -40,11 +29,7 @@ export default function Notes() {
         { id: 3, title: "Note 3", path: "/sample.pdf" },
     ]);
 
-
     const [loading, setLoading] = useState(true);
-
-
-
 
     // onsubmit
     const handleSubmit = async (e) => {
@@ -176,12 +161,12 @@ export default function Notes() {
             return (
                 <>
                     <option style={{ color: "blue" }}>SUBJECT</option>
-                    <option value="HS-301 ">Economics for Engineers   </option>
-                    <option value="CIC-303 ">Compiler Design </option>
-                    <option value="CIC-305 ">Operating Systems </option>
-                    <option value="CIC-307 ">Computer Networks  </option>
-                    <option value=" CIC-309 ">Software Engineering   </option>
-                    <option value=" CIC-311 ">Design and Analysis of Algorithm  </option>
+                    <option value="HS-301">Economics for Engineers   </option>
+                    <option value="CIC-303">Compiler Design </option>
+                    <option value="CIC-305">Operating Systems </option>
+                    <option value="CIC-307">Computer Networks  </option>
+                    <option value=" CIC-309">Software Engineering   </option>
+                    <option value=" CIC-311">Design and Analysis of Algorithm  </option>
                 </>
             );
         }
