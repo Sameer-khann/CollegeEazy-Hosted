@@ -134,8 +134,8 @@ export default function Notes() {
                 <>
                     <option style={{ color: "blue" }}>SUBJECT</option>
                     <option value="ES-201">Computational Methods </option>
-                    <option value="HS-203 ">Indian Knowledge System</option>
-                    <option value="CIC-205 ">Discrete Mathematics</option>
+                    <option value="HS-203">Indian Knowledge System</option>
+                    <option value="CIC-205">Discrete Mathematics</option>
                     <option value="ECC-207">Digital Logic and Computer Design</option>
                     <option value="CIC-209">Data Structures </option>
                     <option value="CIC-211">Object-Oriented Programming using C++</option>
@@ -212,11 +212,11 @@ export default function Notes() {
                 <>
                     <option style={{ color: "blue" }}>SUBJECT</option>
                     <option value="ES-201">Computational Methods </option>
-                    <option value="HS-203 ">Indian Knowledge System</option>
-                    <option value="CIC-205 ">Discrete Mathematics</option>
+                    <option value="HS-203">Indian Knowledge System</option>
+                    <option value="CIC-205">Discrete Mathematics</option>
                     <option value="ECC-207">Digital Logic and Computer Design</option>
-                    <option value=" CIC-209 ">Data Structures </option>
-                    <option value=" CIC-211 ">Object-Oriented Programming using C++</option>
+                    <option value=" CIC-209">Data Structures </option>
+                    <option value=" CIC-211">Object-Oriented Programming using C++</option>
                 </>
             );
         }
@@ -239,12 +239,12 @@ export default function Notes() {
             return (
                 <>
                     <option style={{ color: "blue" }}>SUBJECT</option>
-                    <option value="HS-301 ">Economics for Engineers   </option>
-                    <option value="CIC-303 ">Compiler Design </option>
-                    <option value="CIC-305 ">Operating Systems </option>
-                    <option value="CIC-307 ">Computer Networks  </option>
-                    <option value=" CIC-309 ">Software Engineering   </option>
-                    <option value=" CIC-311 ">Design and Analysis of Algorithm  </option>
+                    <option value="HS-301">Economics for Engineers   </option>
+                    <option value="CIC-303">Compiler Design </option>
+                    <option value="CIC-305">Operating Systems </option>
+                    <option value="CIC-307">Computer Networks  </option>
+                    <option value=" CIC-309">Software Engineering   </option>
+                    <option value=" CIC-311">Design and Analysis of Algorithm  </option>
                 </>
             );
         }
@@ -289,11 +289,11 @@ export default function Notes() {
                 <>
                     <option style={{ color: "blue" }}>SUBJECT</option>
                     <option value="ES-201">Computational Methods </option>
-                    <option value="HS-203 ">Indian Knowledge System</option>
-                    <option value="ECC-205  ">Signals and Systems </option>
+                    <option value="HS-203">Indian Knowledge System</option>
+                    <option value="ECC-205">Signals and Systems </option>
                     <option value="ECC-207">Digital Logic and Computer Design</option>
-                    <option value=" ECC-209  ">Analog Communications  </option>
-                    <option value=" ECC-211 ">Analog Electronics</option>
+                    <option value=" ECC-209">Analog Communications  </option>
+                    <option value=" ECC-211">Analog Electronics</option>
                 </>
             );
         }
@@ -306,10 +306,10 @@ export default function Notes() {
                     <option value="BS-202">Probability, Statistics and Linear Programming  </option>
                     <option value="HS-204">Technical Writing</option>
                     <option value="EEC-206">Network Analysis and Synthesis </option>
-                    <option value="ECC-210 ">Microprocessors and Microcontrollers  </option>
-                    <option value=" ECC-212 ">Digital Communications   </option>
-                    <option value=" ECC-214 ">Analog Electronics-II  </option>
-                    <option value=" ECC-216  ">Electromagnetic Field Theory   </option>
+                    <option value="ECC-210">Microprocessors and Microcontrollers  </option>
+                    <option value=" ECC-212">Digital Communications   </option>
+                    <option value=" ECC-214">Analog Electronics-II  </option>
+                    <option value=" ECC-216">Electromagnetic Field Theory   </option>
                 </>
             );
         }
@@ -318,12 +318,12 @@ export default function Notes() {
             return (
                 <>
                     <option style={{ color: "blue" }}>SUBJECT</option>
-                    <option value="HS-301 ">Economics for Engineers   </option>
-                    <option value="ECC-303 ">Digital Signal Processing  </option>
-                    <option value="ECC-305 ">Microelectronic </option>
-                    <option value="EEC-307 ">Introduction to Control Systems  </option>
-                    <option value=" ECC-309 ">Transmission Lines, Waveguides and Antenna   </option>
-                    <option value=" ECC-311 ">Data Communication and Networking  </option>
+                    <option value="HS-301">Economics for Engineers   </option>
+                    <option value="ECC-303">Digital Signal Processing  </option>
+                    <option value="ECC-305">Microelectronic </option>
+                    <option value="EEC-307">Introduction to Control Systems  </option>
+                    <option value=" ECC-309">Transmission Lines, Waveguides and Antenna   </option>
+                    <option value=" ECC-311">Data Communication and Networking  </option>
                 </>
             );
         }
@@ -370,12 +370,12 @@ export default function Notes() {
                 <>
                     <option style={{ color: "blue" }}>SUBJECT</option>
                     <option value="ES-201">Computational Methods </option>
-                    <option value="HS-203 ">Indian Knowledge System</option>
-                    <option value="ECC-205 ">Signals and Systems </option>
-                    <option value="EEC-209 ">Electrical Materials </option>
-                    <option value="EEC-211 ">Electrical Machines - I</option>
-                    <option value="ECC-213 ">Electromagnetic Field Theory</option>
-                    <option value="ECC-215 ">Electronics – I</option>
+                    <option value="HS-203">Indian Knowledge System</option>
+                    <option value="ECC-205">Signals and Systems </option>
+                    <option value="EEC-209">Electrical Materials </option>
+                    <option value="EEC-211">Electrical Machines - I</option>
+                    <option value="ECC-213">Electromagnetic Field Theory</option>
+                    <option value="ECC-215">Electronics – I</option>
                 </>
             );
         }
@@ -398,12 +398,12 @@ export default function Notes() {
             return (
                 <>
                     <option style={{ color: "blue" }}>SUBJECT</option>
-                    <option value="HS-301 ">Economics for Engineers   </option>
-                    <option value="EEC-303 ">Power Systems – II </option>
-                    <option value="EEC-305 ">Electrical and Electronics Measurements  </option>
-                    <option value="EEC-307 ">Introduction to Control Systems </option>
-                    <option value="EEC-309 ">Power Electronics </option>
-                    <option value="ECC-313 ">Microprocessors and Microcontrollers </option>
+                    <option value="HS-301">Economics for Engineers   </option>
+                    <option value="EEC-303">Power Systems – II </option>
+                    <option value="EEC-305">Electrical and Electronics Measurements  </option>
+                    <option value="EEC-307">Introduction to Control Systems </option>
+                    <option value="EEC-309">Power Electronics </option>
+                    <option value="ECC-313">Microprocessors and Microcontrollers </option>
                 </>
             );
         }
@@ -449,11 +449,11 @@ export default function Notes() {
                 <>
                     <option style={{ color: "blue" }}>SUBJECT</option>
                     <option value="ES-201">Computational Methods </option>
-                    <option value="HS-203 ">Indian Knowledge System</option>
-                    <option value="CEC-205 ">Structural Analysis - I</option>
+                    <option value="HS-203">Indian Knowledge System</option>
+                    <option value="CEC-205">Structural Analysis - I</option>
                     <option value="CEC-207">Structural Design - I </option>
-                    <option value="CEC-209 ">Fluid Mechanics  </option>
-                    <option value="CEC-211 ">Geomatics Engineering </option>
+                    <option value="CEC-209">Fluid Mechanics  </option>
+                    <option value="CEC-211">Geomatics Engineering </option>
                 </>
             );
         }
@@ -476,12 +476,12 @@ export default function Notes() {
             return (
                 <>
                     <option style={{ color: "blue" }}>SUBJECT</option>
-                    <option value="HS-301 ">Economics for Engineers   </option>
-                    <option value="CEC-303 ">Structural Analysis - II </option>
-                    <option value="CEC-305 ">Structural Design - II </option>
-                    <option value="CEC-307 ">Geotechnical Engineering </option>
-                    <option value="CEC-309 ">Environmental Engineering - II </option>
-                    <option value="CEC-311 ">Traffic Engineering and Pavement Design  </option>
+                    <option value="HS-301">Economics for Engineers   </option>
+                    <option value="CEC-303">Structural Analysis - II </option>
+                    <option value="CEC-305">Structural Design - II </option>
+                    <option value="CEC-307">Geotechnical Engineering </option>
+                    <option value="CEC-309">Environmental Engineering - II </option>
+                    <option value="CEC-311">Traffic Engineering and Pavement Design  </option>
                 </>
             );
         }
@@ -528,11 +528,11 @@ export default function Notes() {
                 <>
                     <option style={{ color: "blue" }}>SUBJECT</option>
                     <option value="ES-201">Computational Methods </option>
-                    <option value="HS-203 ">Indian Knowledge System</option>
-                    <option value="MEC-205 ">Theory of Machines</option>
+                    <option value="HS-203">Indian Knowledge System</option>
+                    <option value="MEC-205">Theory of Machines</option>
                     <option value="MEC-207">Strength of Materials</option>
-                    <option value="MEC-209 ">Manufacturing Science and Technology-I </option>
-                    <option value="MEC-211 ">Thermal Engineering-I</option>
+                    <option value="MEC-209">Manufacturing Science and Technology-I </option>
+                    <option value="MEC-211">Thermal Engineering-I</option>
                 </>
             );
         }
@@ -555,12 +555,12 @@ export default function Notes() {
             return (
                 <>
                     <option style={{ color: "blue" }}>SUBJECT</option>
-                    <option value="HS-301 ">Economics for Engineers   </option>
-                    <option value="MEC-303 ">Machine Design-II</option>
-                    <option value="MEC-305 ">Fluid Mechanics and Hydraullic Machines </option>
-                    <option value="MEC-307 ">Metrology and Instrumentation </option>
-                    <option value="MEC-309 ">Industrial Engineering  </option>
-                    <option value="MEC-311 ">Heat and Mass Transfer </option>
+                    <option value="HS-301">Economics for Engineers   </option>
+                    <option value="MEC-303">Machine Design-II</option>
+                    <option value="MEC-305">Fluid Mechanics and Hydraullic Machines </option>
+                    <option value="MEC-307">Metrology and Instrumentation </option>
+                    <option value="MEC-309">Industrial Engineering  </option>
+                    <option value="MEC-311">Heat and Mass Transfer </option>
                 </>
             );
         }
@@ -607,13 +607,13 @@ export default function Notes() {
                 <>
                     <option style={{ color: "blue" }}>SUBJECT</option>
                     <option value="AIDS-201">Data Structures  </option>
-                    <option value="AIDS-203 ">Foundations of Data Science</option>
-                    <option value="AIDS-205 ">Digital Logic Design </option>
+                    <option value="AIDS-203">Foundations of Data Science</option>
+                    <option value="AIDS-205">Digital Logic Design </option>
                     <option value="AIDS-207">Principles of Artificial Intelligence</option>
-                    <option value="AIDS-209 ">Probability, Statistics and Linear Algebra </option>
-                    <option value="AIDS-211 ">Universal Human Values- II </option>
-                    <option value="AIDS-213 ">Critical Reasoning and Systerns Thinking</option>
-                    <option value="AIDS-215 ">Selected readings</option>
+                    <option value="AIDS-209">Probability, Statistics and Linear Algebra </option>
+                    <option value="AIDS-211">Universal Human Values- II </option>
+                    <option value="AIDS-213">Critical Reasoning and Systerns Thinking</option>
+                    <option value="AIDS-215">Selected readings</option>
                 </>
             );
         }
@@ -676,13 +676,13 @@ export default function Notes() {
                 <>
                     <option style={{ color: "blue" }}>SUBJECT</option>
                     <option value="AIML-201">Data Structures  </option>
-                    <option value="AIML-203 ">Foundations of Data Science</option>
-                    <option value="AIML-205 ">Digital Logic Design </option>
+                    <option value="AIML-203">Foundations of Data Science</option>
+                    <option value="AIML-205">Digital Logic Design </option>
                     <option value="AIML-207">Principles of Artificial Intelligence</option>
-                    <option value="AIML-209 ">Probability, Statistics and Linear Algebra </option>
-                    <option value="AIML-211 ">Universal Human Values- II </option>
-                    <option value="AIML-213 ">Critical Reasoning and Systerns Thinking</option>
-                    <option value="AIML-215 ">Selected readings</option>
+                    <option value="AIML-209">Probability, Statistics and Linear Algebra </option>
+                    <option value="AIML-211">Universal Human Values- II </option>
+                    <option value="AIML-213">Critical Reasoning and Systerns Thinking</option>
+                    <option value="AIML-215">Selected readings</option>
                 </>
             );
         }
