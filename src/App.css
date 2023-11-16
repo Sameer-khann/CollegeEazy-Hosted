@@ -2969,7 +2969,7 @@ form {
 }
 
 .team-box2 {
-  background-image: url(./img/aadil.png);
+  background-image: url(./img/yashi.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -3014,7 +3014,7 @@ form {
 }
 
 .team-box2 .team-name::before {
-  background-image: url(./img/aadil.png);
+  background-image: url(./img/yashi.jpg);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;

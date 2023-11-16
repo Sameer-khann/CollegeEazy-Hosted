@@ -8,29 +8,15 @@ import tagImg from '../img/tag.png'
 import bulb from '../img/blub (2).png'
 import dia from '../img/dai (2).png'
 import gear from '../img/gear (2).png'
-// import query from '../img/gear (2).png'
-
 import { toast } from 'react-toastify';
 import emailjs from 'emailjs-com';
-
-
-
-
-
-// Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
-
-// Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
-
-
-// import required modules
 import { EffectCoverflow, Pagination } from 'swiper/modules';
 import Footer from './Footer';
 import { useEffect } from 'react';
-
 
 
 export default function LandingPage() {
@@ -188,29 +174,28 @@ export default function LandingPage() {
                             el: ".swiper-pagination",
                         }
                     }
-
                     modules={[EffectCoverflow, Pagination]}
                     className="mySwiper"
                 >
+                    
                     <SwiperSlide style={{ width: '400px', height: '450px' }}>
+                        <div className="team-box team-box2">
+                            <div className="team-name">
+                                <center>
+                                    <div className="team-content">
+                                        <h2>Yashi Vaish</h2>
+                                        <p>Frontend Developer</p>
+                                    </div>
+                                </center>
+                            </div>
+                        </div>
+                    </SwiperSlide><SwiperSlide style={{ width: '400px', height: '450px' }}>
                         <div className="team-box team-box1">
                             <div className="team-name">
                                 <center>
                                     <div className="team-content">
                                         <h2>SHASHANK PANDEY</h2>
                                         <p>Backend Developer</p>
-                                    </div>
-                                </center>
-                            </div>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide style={{ width: '400px', height: '450px' }}>
-                        <div className="team-box team-box2">
-                            <div className="team-name">
-                                <center>
-                                    <div className="team-content">
-                                        <h2>MOHD AZAM</h2>
-                                        <p>Frontend Developer</p>
                                     </div>
                                 </center>
                             </div>
@@ -246,7 +231,7 @@ export default function LandingPage() {
                             <h1>Free Notes</h1>
                             <p>Access diverse study materials hassle-free, saving time and aiding academic success.</p>
                         </div>
-                        <Link to="/About" style={{textDecoration:"none"}}   >
+                        <Link to="/Notes" style={{textDecoration:"none"}}   >
                         <div className="buttonabout">
                             <button>Explore</button>
                         </div>
@@ -262,7 +247,7 @@ export default function LandingPage() {
                             <h1>Attendance Tracker</h1>
                             <p>Effortless monitoring for better class attendance management, streamlining your academic journey.</p>
                         </div>
-                        <Link to="/About" style={{textDecoration:"none"}}>
+                        <Link to="/Attendance" style={{textDecoration:"none"}}>
                         <div className="buttonaboutB">
                             <button>Explore</button>
                         </div>
@@ -278,7 +263,7 @@ export default function LandingPage() {
                             <h1>Student Store</h1>
                             <p>Simplify buying and selling within your college community, enhancing campus life.</p>
                         </div>
-                        <Link to="/About" style={{textDecoration:"none"}}>
+                        <Link to="/Shop" style={{textDecoration:"none"}}>
                         <div className="buttonaboutC">
                             <button>Explore</button>
                         </div>
@@ -328,10 +313,10 @@ export default function LandingPage() {
 
 
                     {/* count api */}
-                    <div className="countApi">
+                    {/* <div className="countApi">
                         <p>Our Audience</p>
                         <h1>{count}</h1>
-                    </div>
+                    </div> */}
 
 
         <Footer/>
